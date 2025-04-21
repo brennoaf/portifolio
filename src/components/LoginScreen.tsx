@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { useRef, useState } from "react";
+import { useRef } from "react";
 import ProfilePicture from "./ProfilePicture";
 import ButtonHover from "./ButtonHover";
 
@@ -8,7 +8,6 @@ interface LoginScreenProps {
 }
 
 export default function LoginScreen({ onLogin }: LoginScreenProps) {
-  const [hovering, setHovering] = useState(false);
   const audioRef = useRef<HTMLAudioElement | null>(null);
 
   const handleLogin = () => {
