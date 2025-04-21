@@ -4,7 +4,6 @@ import React, { useState } from "react";
 import Taskbar from "./Taskbar";
 import AboutWindow from "@/components/windows/AboutWindow";
 import DesktopShortcut from "./Shortcut";
-import DraggableWindow from "./windows/@global/DraggableWindow";
 import CmdWindow from "./windows/CmdWindow";
 
 interface WindowData {
