@@ -75,7 +75,7 @@ export default function DraggableWindow({
   return (
     <div
       ref={windowRef}
-      className={`window ${focused ? "active" : ""}`}
+      className={`window ignore-selection ${focused ? "active" : ""}`}
       style={{
         position: "absolute",
         top: position.y,
