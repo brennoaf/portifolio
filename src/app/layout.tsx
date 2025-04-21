@@ -17,7 +17,7 @@ export default function RootLayout({
       <body
         style={{
           margin: 0,
-          backgroundImage: "url('/images/wallpapers/default_win7.jpg')",
+          backgroundImage: "url('/images/wallpapers/desktop.jpg')",
           backgroundSize: "cover",
           backgroundPosition: "center",
           width: "100vw",

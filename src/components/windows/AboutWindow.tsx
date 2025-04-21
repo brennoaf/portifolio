@@ -20,7 +20,7 @@ export default function AboutWindow({ id, onClose, onMinimize }: AboutWindowProp
     >
 
       <div className="flex flex-row items-center gap-3">
-        <ProfilePicture />
+        <ProfilePicture size={7} />
         <div>
           <p className="font-bold text-base">Brenno França</p>
           <p>Desenvolvedor Fullstack</p>

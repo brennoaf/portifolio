@@ -43,3 +43,7 @@
 .font-vt323 {
   font-family: 'VT323', monospace;
 }
+
+.login-username{
+  text-shadow: black 1px 1px 7px;
+}
