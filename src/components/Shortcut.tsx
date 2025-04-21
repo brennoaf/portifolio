@@ -24,7 +24,7 @@ export default function Shortcut({ icon, label, onClick }: ShortcutProps) {
           src={icon}
           fill
           alt={`${label} icon`}
-          style={{ objectFit: "contain" }}
+          style={{ objectFit: "contain", pointerEvents: "none" }}
         />
       </div>
       <span className="text-xs text-center mt-1 drop-shadow-sm">{label}</span>
