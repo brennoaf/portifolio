@@ -1,0 +1,45 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+.taskbar-shortcut-background{
+  background: linear-gradient(
+    to top,
+    rgba(255, 255, 255, 0) 0%,
+    rgb(255, 255, 255) 120%
+  );
+
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.486);
+}
+
+.taskbar-show-desktop-background{
+  background: linear-gradient(
+    to top left,
+    rgba(255, 255, 255, 0) 55%,
+    rgba(255, 255, 255, 0.411) 80%
+  );
+
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.247);
+}
+
+.font-vt323 {
+  font-family: 'VT323', monospace;
+}
